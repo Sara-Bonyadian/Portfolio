@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  padding-top: 4em;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+h3 {
+  opacity: 0.7;
+  font-size: 1.25em;
+}
+.name {
+  font-size: 4em;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.info-btn {
+    color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#about{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
