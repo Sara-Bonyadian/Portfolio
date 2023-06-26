@@ -7,8 +7,8 @@
 
 body {
   margin: 60px auto;
-  max-width: 800px;
-  padding-top: 4em;
+  /* max-width: 800px; */
+  /* padding-top: 4em; */
 }
 h1,
 h2,
@@ -18,10 +18,12 @@ h3 {
 }
 
 h1 {
+  
   font-size: 96px;
 }
 
 h2 {
+  padding-top: 4em;
   font-size: 48px;
 }
 
