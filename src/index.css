@@ -4,7 +4,15 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --background-color: #f5f2fe;
 }
-
+@media (max-width: 800px) {
+h1{
+  font-size: 35px;
+  line-height: 1.2;
+}
+h2{
+  font-size: 30px;
+}
+}
 body {
   margin: 60px auto;
   /* max-width: 800px; */
